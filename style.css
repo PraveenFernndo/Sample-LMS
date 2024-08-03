@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Noto Sans", sans-serif;
+}
+
+.main-banner{
+    background-image: url("pictures/main-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-image {
+    background-image: url("pictures/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+.hover-effect {
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "HoneyScript";
+    src: url("fonts/HoneyScript-Light.ttf");
+}
+
+@font-face {
+    font-family: "QuickSand";
+    src: url("fonts/Quicksand-Medium.ttf");
+}
+
+* {
+    font-family: "QuickSand";
+    font-size: 20px;
+}
+
+.menu-effects:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.poster-imgs {
+    height: 400px;
+}
+
+.handCursor {
+    cursor: pointer;
+}
+
+.profile {
+    background-image: url("pictures/background-body.png.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
